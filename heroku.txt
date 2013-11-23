@@ -1,0 +1,14 @@
+heroku login
+heroku apps:create april201//april201 is a name of app
+git init
+echo .svn > .gitignore
+ git add .
+git commit -m "using git for heroku deployment"
+heroku create
+ git push heroku master
+heroku ps:scale web=1
+ heroku ps
+heroku open
+https://devcenter.heroku.com/articles/getting-started-with-nodejs
+https://devcenter.heroku.com/articles/getting-started-with-nodejs
+https://devcenter.heroku.com/articles/git
